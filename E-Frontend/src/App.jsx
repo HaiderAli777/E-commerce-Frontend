@@ -4,16 +4,15 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./Component/navbar";
 import Signup from "./Pages/Signup";
+import { Routes, Route } from "react-router-dom";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div>
-        <Navbar></Navbar>
-        <Signup></Signup>
-      </div>
-    </>
+    <div>
+      <Navbar></Navbar>
+      <Signup></Signup>
+    </div>
   );
 }
 
