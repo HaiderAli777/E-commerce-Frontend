@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./Component/navbar";
 import Signup from "./Pages/Signup";
+import Footer from "./Component/Footer";
 import { Routes, Route } from "react-router-dom";
 function App() {
   const [count, setCount] = useState(0);
@@ -12,6 +13,7 @@ function App() {
     <div>
       <Navbar></Navbar>
       <Signup></Signup>
+      <Footer></Footer>
     </div>
   );
 }

@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import imgage1 from "../assets/logo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faXmark,
+  faMagnifyingGlass,
+  faCartShopping,
+  faRightToBracket,
+} from "@fortawesome/free-solid-svg-icons";
+
 import { Link } from "react-router-dom";
 export default function Navbar() {
   const [pop, setpop] = useState(false);
@@ -17,18 +24,37 @@ export default function Navbar() {
   return (
     <>
       <div>
-        <div className="justify-between flex flex-row bg-gray-100  py-4 px-14  items-center">
-          <div className="p-1">
-            <img src={imgage1} className="max-w-14"></img>
+        <div className="justify-between flex flex-row bg-purple-100  py-4 px-14  items-center">
+          <div className="p-1 text-purple-800 font-bold text-3xl font-serif">
+            HAD<span className=" text-purple-300 font-bold">DI.</span>
           </div>
-          <div className="hidden md:flex space-x-6 font-bold text-blue-800 ">
-            <Link to="/">Home</Link>
-            <Link to="/">About</Link>
-            <Link to="/">Contact Me</Link>
+          <div className="hidden md:flex space-x-6 font-bold text-purple-800 ">
+            <Link to="/" className="hover:border-b-4">
+              Home
+            </Link>
+            <Link to="/" className="hover:border-b-4">
+              Collection
+            </Link>
+            <Link to="/" className="hover:border-b-4">
+              About
+            </Link>
+            <Link to="/" className="hover:border-b-4">
+              Contact
+            </Link>
           </div>
-          <div className="hidden md:flex space-x-5 flex-row font-bold text-blue-800">
-            <Link to="/">Sign In</Link>
-            <Link to="/">Sign Up</Link>
+          <div className=" md:flex space-x-5 flex-row font-bold text-purple-800 items-center">
+            <Link>
+              <FontAwesomeIcon icon={faMagnifyingGlass}></FontAwesomeIcon>
+            </Link>
+            <Link>
+              <FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon>
+            </Link>
+
+            <Link to="/">
+              <button className="border-2 ro rounded-2xl p-2 hover:bg-purple-800 hover:text-white">
+                SignIn
+              </button>
+            </Link>
           </div>
           <div className="md:hidden">
             <button onClick={ShowtheMenu}>
@@ -42,11 +68,11 @@ export default function Navbar() {
       </div>
       {pop && (
         <div className="bg-blue-300 flex flex-col py-5 space-y-1.5 text-center fixed right-0 left-0 md:hidden">
-          <Link to="/">Sign In</Link>
-          <Link to="/">Sign Up</Link>
+          <Link to="/">SignIn</Link>
           <Link to="/">Home</Link>
+          <Link to="/">Collection</Link>
           <Link to="/">About</Link>
-          <Link to="/">Contact Me</Link>
+          <Link to="/">Contact</Link>
         </div>
       )}
     </>
