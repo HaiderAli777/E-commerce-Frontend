@@ -2,8 +2,8 @@ import React from "react";
 
 export default function () {
   return (
-    <div className="bg-purple-200 flex flex-row fixed bottom-0 h-[15rem]">
-      <div className=" flex flex-col w-[50%] p-10 font-light">
+    <div className="bg-purple-200 flex flex-col md:flex-row fixed bottom-0 h-[15rem]">
+      <div className=" flex text-center md:text-left flex-col md:w-[50%]  p-10 font-light">
         <h1 className="text-4xl text-purple-800 mb-5 justify-start font-bold">
           HAA<span className="text-purple-400">DI.</span>
         </h1>
@@ -15,7 +15,7 @@ export default function () {
           precision, ensuring a perfect balance of luxury and everyday wear.
         </p>
       </div>
-      <div className="flex flex-col p-10 font-light w-[20%]">
+      <div className="flex flex-col text-center md:text-left p-10 font-light md:w-[20%]">
         <p className="text-4xl mb-4  text-purple-800 font-medium">Company</p>
 
         <div className="ml-2">
@@ -26,7 +26,7 @@ export default function () {
           <p>Privacy Policy</p>
         </div>
       </div>
-      <div className="flex flex-col p-10 font-light">
+      <div className="flex flex-col text-center md:text-left  p-10 font-light">
         <p className="text-4xl mb-4  text-purple-800 font-medium">
           Get In Touch
         </p>

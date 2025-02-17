@@ -67,12 +67,22 @@ export default function Navbar() {
         </div>
       </div>
       {pop && (
-        <div className="bg-blue-300 flex flex-col py-5 space-y-1.5 text-center fixed right-0 left-0 md:hidden">
-          <Link to="/">SignIn</Link>
-          <Link to="/">Home</Link>
-          <Link to="/">Collection</Link>
-          <Link to="/">About</Link>
-          <Link to="/">Contact</Link>
+        <div className="bg-purple-100 flex flex-col py-5 space-y-1.5 text-center fixed right-0 left-0 md:hidden">
+          <Link to="/" className="font-medium text-purple-800 border-b-2 pb-1">
+            SignIn
+          </Link>
+          <Link to="/" className="font-medium text-purple-800 border-b-2 pb-1">
+            Home
+          </Link>
+          <Link to="/" className="font-medium text-purple-800 border-b-2 pb-1">
+            Collection
+          </Link>
+          <Link to="/" className="font-medium text-purple-800 border-b-2 pb-1">
+            About
+          </Link>
+          <Link to="/" className="font-medium text-purple-800 border-b-2 pb-1">
+            Contact
+          </Link>
         </div>
       )}
     </>
