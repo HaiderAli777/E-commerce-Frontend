@@ -2,7 +2,7 @@ import React from "react";
 
 export default function () {
   return (
-    <div className="bg-purple-200 flex flex-col md:flex-row fixed bottom-0 h-[15rem]">
+    <div className="bg-purple-200 flex flex-col md:flex-row relative bottom-0  mt-5">
       <div className=" flex text-center md:text-left flex-col md:w-[50%]  p-10 font-light">
         <h1 className="text-4xl text-purple-800 mb-5 justify-start font-bold">
           HAA<span className="text-purple-400">DI.</span>
