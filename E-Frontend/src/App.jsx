@@ -3,7 +3,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./Component/navbar";
-import Signup from "./Pages/SignIn";
+import SignIn from "./Pages/SignIn";
+import SignUp from "./Pages/SignUp";
 import Footer from "./Component/Footer";
 import { Routes, Route } from "react-router-dom";
 function App() {
@@ -12,7 +13,7 @@ function App() {
   return (
     <div>
       <Navbar></Navbar>
-      <Signup></Signup>
+      <SignUp></SignUp>
       <Footer></Footer>
     </div>
   );
