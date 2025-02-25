@@ -1,33 +1,35 @@
-E-Commerce Website Frontend (In Development)
+E-Commerce Website Frontend (Under Development) 🚀
 
-📌 Project Overview
+📌 Overview
 
-This repository contains the frontend code for an e-commerce website, which is currently under development. The application will allow users to browse products, add items to their cart, and complete purchases through an intuitive and responsive user interface.
+This is the frontend for an e-commerce website currently in development. The application will provide users with a seamless shopping experience, including product browsing, cart management, and a secure checkout process.
 
-🚀 Planned Features
+🎯 Features (Planned)
 
-User authentication (Login/Signup)
+🔑 User authentication (Login/Signup)
 
-Product listing with filtering and sorting
+🛍️ Product listing with search & filters
 
-Detailed product pages
+📄 Detailed product pages
 
-Shopping cart management
+🛒 Shopping cart management
 
-Checkout process
+💳 Secure checkout process
 
-Order tracking
+📦 Order tracking
 
-Responsive UI design
+📱 Fully responsive design
 
 🛠 Tech Stack
 
-React.js - For building the UI components
+⚛️ React.js - Component-based UI
 
-Tailwind CSS - For styling the application
+🎨 Tailwind CSS - Modern styling
 
-React Router - For navigation and routing
+🔄 Redux Toolkit - State management
 
-Redux Toolkit - For state management
+🌐 React Router - Navigation & routing
 
-Axios - For making API requests
+⚡ Axios - API requests handling
+
+Backend is Comming soon..
