@@ -102,7 +102,7 @@ export default function SignUp() {
               <h1 className="text-purple-800">
                 If u already have an Account ?
                 <Link
-                  to="/"
+                  to="/signin"
                   className="text-purple-950 font-bold underline underline-offset-2"
                 >
                   SignIn

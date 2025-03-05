@@ -29,16 +29,16 @@ export default function Navbar() {
             HAD<span className=" text-purple-300 font-bold">DI.</span>
           </div>
           <div className="hidden md:flex space-x-6 font-bold text-purple-800 ">
-            <Link to="/" className="hover:border-b-4">
+            <Link to="/home" className="hover:border-b-4">
               Home
             </Link>
-            <Link to="/" className="hover:border-b-4">
+            <Link to="/collection" className="hover:border-b-4">
               Collection
             </Link>
-            <Link to="/" className="hover:border-b-4">
+            <Link to="/about" className="hover:border-b-4">
               About
             </Link>
-            <Link to="/" className="hover:border-b-4">
+            <Link to="/contact" className="hover:border-b-4">
               Contact
             </Link>
           </div>
@@ -50,7 +50,7 @@ export default function Navbar() {
               <FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon>
             </Link>
 
-            <Link to="/">
+            <Link to="/signin">
               <button className="border-2 ro rounded-2xl p-2 hover:bg-purple-800 hover:text-white">
                 SignIn
               </button>
@@ -68,19 +68,19 @@ export default function Navbar() {
       </div>
       {pop && (
         <div className="bg-purple-100 flex flex-col py-5 space-y-1.5 text-center fixed right-0 left-0 md:hidden">
-          <Link to="/" className="font-medium text-purple-800 border-b-2 pb-1">
+          <Link to="/signin" className="font-medium text-purple-800 border-b-2 pb-1">
             SignIn
           </Link>
-          <Link to="/" className="font-medium text-purple-800 border-b-2 pb-1">
+          <Link to="/home" className="font-medium text-purple-800 border-b-2 pb-1">
             Home
           </Link>
-          <Link to="/" className="font-medium text-purple-800 border-b-2 pb-1">
+          <Link to="/collection" className="font-medium text-purple-800 border-b-2 pb-1">
             Collection
           </Link>
-          <Link to="/" className="font-medium text-purple-800 border-b-2 pb-1">
+          <Link to="/about" className="font-medium text-purple-800 border-b-2 pb-1">
             About
           </Link>
-          <Link to="/" className="font-medium text-purple-800 border-b-2 pb-1">
+          <Link to="/contact" className="font-medium text-purple-800 border-b-2 pb-1">
             Contact
           </Link>
         </div>

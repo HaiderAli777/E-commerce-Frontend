@@ -60,7 +60,7 @@ export default function SignIn() {
               <h1 className="text-purple-800">
                 If u donot have any account ?
                 <Link
-                  to="/"
+                  to="/signup"
                   className="text-purple-950 font-bold underline underline-offset-2"
                 >
                   SignUp
