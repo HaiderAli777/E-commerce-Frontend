@@ -6,6 +6,7 @@ import { faDungeon } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { Input } from '@/components/ui/input';
 import { Label } from '@radix-ui/react-label';
+import { Button } from '@/components/ui/button';
 
 
 export default function ContactUs() {
@@ -85,6 +86,7 @@ export default function ContactUs() {
                   rows={6}
                 />
               </div>
+              <Button className="bg-purple-900 text-white hover:bg-purple-700">Submit</Button>
             </div>
         </div>
         </div>
