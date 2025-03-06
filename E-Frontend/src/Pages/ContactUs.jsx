@@ -11,7 +11,7 @@ import { Button } from '@/components/ui/button';
 
 export default function ContactUs() {
   return (
-    <div className=' my-6'>
+    <div className=' mb-6 mt-30'>
         <div className='flex flex-row items-center justify-center space-x-3'>
         <h1 className='text-center font-bold text-purple-800 text-4xl'>
           Contact <span className='text-purple-500'>US</span>
@@ -31,7 +31,9 @@ export default function ContactUs() {
          <br></br>
            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon> support@example.com
          <br></br>
-         <FontAwesomeIcon icon={faNewspaper}></FontAwesomeIcon> Working Hours : Monday - Friday: 9:00 AM - 6:00 PM
+         <FontAwesomeIcon icon={faNewspaper}></FontAwesomeIcon> Working Days : Monday - Friday
+         <br></br> 
+         <FontAwesomeIcon icon={faNewspaper}></FontAwesomeIcon> Working Hourse : 9:00 AM - 6:00 PM
 <br></br>
          </p>
         </div>

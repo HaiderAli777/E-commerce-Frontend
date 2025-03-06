@@ -3,7 +3,7 @@ import aboutimage from "../assets/About1Image.jpg";
 export default function AboutUs() {
   return (
     <div>
-      <div className='m-10'>
+      <div className='mx-10 mt-30'>
         <div className='text-center text-4xl mt-8 text-purple-600 font-bold '><span className='text-purple-700'>___</span>About<span className='font-bold text-purple-600'> Us</span><span className='text-purple-700'>___</span></div>
         <div className='grid-cols-1 md:grid md:grid-cols-2 mt-12 '>
           {/* Okay so this is for images */}

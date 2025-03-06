@@ -8,6 +8,7 @@ import SignUp from "./Pages/SignUp";
 import Footer from "./Component/Footer";
 import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
+import Home from "./Pages/Home";
 import { Routes, Route,Link } from "react-router-dom";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
   <Route path="/signup" element={<SignUp></SignUp>}></Route>
   <Route path="/about" element={<AboutUs></AboutUs>}></Route>
   <Route path="/contact" element={<ContactUs></ContactUs>}></Route>
+  <Route path="/home" element={<Home></Home>}></Route>
 
       </Routes>
       <Footer></Footer>

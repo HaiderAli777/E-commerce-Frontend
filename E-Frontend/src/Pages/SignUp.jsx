@@ -10,7 +10,7 @@ import malepic from "../assets/picsig1.jpg";
 export default function SignUp() {
   return (
     <>
-      <div className=" md:mx-5 mt-3 grid-col-1 md:grid grid-cols-3 md:gap-6">
+      <div className="md:mx-5 mt-25 grid-col-1 md:grid grid-cols-3 md:gap-6">
         <div className=" h-[100%]">
           <img src={malepic} className="h-[100%] w-[120%] rounded-2xl"></img>
         </div>

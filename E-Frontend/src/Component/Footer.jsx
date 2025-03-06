@@ -7,7 +7,7 @@ export default function () {
         <h1 className="text-4xl text-purple-800 mb-5 justify-start font-bold">
           HAA<span className="text-purple-400">DI.</span>
         </h1>
-        <p>
+        <p className="font-bold text-purple-600">
           HAADI is a contemporary clothing brand that blends elegance with
           modern trends, offering premium-quality fashion for those who seek
           sophistication in every outfit. Designed for individuals who value
@@ -18,7 +18,7 @@ export default function () {
       <div className="flex flex-col text-center md:text-left p-10 font-light md:w-[20%]">
         <p className="text-4xl mb-4  text-purple-800 font-medium">Company</p>
 
-        <div className="ml-2">
+        <div className="ml-2 font-bold text-purple-600">
           <p>Home</p>
           <p>Delivery</p>
           <p>About</p>
@@ -30,7 +30,7 @@ export default function () {
         <p className="text-4xl mb-4  text-purple-800 font-medium">
           Get In Touch
         </p>
-        <div className="ml-2">
+        <div className="ml-2 font-bold text-purple-600">
           <p>0305-4935143</p>
           <p>ha7325897@gmail.com</p>
           <p>linkdin</p>

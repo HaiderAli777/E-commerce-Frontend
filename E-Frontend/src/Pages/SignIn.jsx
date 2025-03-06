@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export default function SignIn() {
   return (
     <>
-      <div className=" md:mx-5 mt-3 grid-col-1 md:grid grid-cols-3 md:gap-6">
+      <div className=" md:mx-5 mt-25 grid-col-1 md:grid grid-cols-3 md:gap-6">
         <div className=" h-[100%] bg-cover">
           <img src={signin} className="h-[100%] w-[120%] rounded-2xl"></img>
         </div>
