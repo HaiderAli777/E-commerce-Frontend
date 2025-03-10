@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <>
       <div>
-        <div className="justify-between flex flex-row bg-gradient-to-l from-purple-400 mb-20 py-4 px-14  items-center fixed top-0 left-0 z-50 right-0">
+        <div className="justify-between flex flex-row bg-gradient-to-l from-purple-400 py-4 px-14  items-center fixed top-0 left-0 z-50 right-0">
           <div className="p-1 text-purple-800 font-bold text-3xl font-serif">
             HAD<span className=" text-purple-300 font-bold">DI.</span>
           </div>
@@ -67,7 +67,7 @@ export default function Navbar() {
         </div>
       </div>
       {pop && (
-        <div className="bg-purple-100 flex flex-col py-5 space-y-1.5 text-center fixed right-0 left-0 md:hidden">
+        <div className="bg-purple-100 flex flex-col py-5 space-y-1.5 text-center fixed top-19 right-0 left-0 md:hidden">
           <Link to="/signin" className="font-medium text-purple-800 border-b-2 pb-1">
             SignIn
           </Link>
